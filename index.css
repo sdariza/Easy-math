@@ -4,6 +4,7 @@
     margin-top: -60px;   
 }
 
+
 nav{
     background: linear-gradient(90deg, #1c3643,#273b47 25%, #1e5372);
     /* background: linear-gradient(90deg, rgb(56, 56, 163) 35%,rgb(14, 14, 124) 10%, rgb(17, 66, 80) ); */
@@ -33,6 +34,10 @@ nav{
     font-family: 'Merriweather', serif;
 }
 
+#main-container .carousel-inner{
+    border-radius: 5px;
+}
+
 #footer-container a:hover{
     color: rgb(91, 255, 132);
 }
@@ -42,6 +47,10 @@ nav{
     max-height: 90vh;
     min-height: 50vh;
     filter: grayscale(70%);
+}
+
+#main-container{
+    margin-top: 80px;
 }
 
 #carousel{
