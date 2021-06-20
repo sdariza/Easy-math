@@ -73,12 +73,11 @@ nav{
     height: 100%;
 }
 
-#carousel .overlay button{
-    border-radius: 10px;
-    background: white;
+.btn-unir{
+    background: rgba(91, 255, 132, 0.685);
+    color: white;
 }
 
-#carousel .overlay button:hover{
-    background: rgb(0, 0, 0);
-    color: white;
+.btn-unir:hover{
+    background: rgb(91, 255, 132);
 }
