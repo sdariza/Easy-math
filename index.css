@@ -16,3 +16,60 @@ nav{
 #header-cont a:hover{
     color: rgb(91, 255, 132);
 }
+
+#nav-bar{
+    color: chartreuse;
+}
+
+#footer-container{
+    background: #1c3643;
+    border-radius: 5px;
+}
+
+#footer-container a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Benne', serif;
+    font-family: 'Merriweather', serif;
+}
+
+#footer-container a:hover{
+    color: rgb(91, 255, 132);
+}
+
+#main-container .carousel-inner img{
+    object-fit: cover;
+    max-height: 90vh;
+    min-height: 50vh;
+    filter: grayscale(70%);
+}
+
+#carousel{
+    position: relative;
+    font-family: 'Merriweather', serif;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+#carousel .overlay button{
+    border-radius: 10px;
+    background: white;
+}
+
+#carousel .overlay button:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+}
