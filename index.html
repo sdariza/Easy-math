@@ -23,7 +23,7 @@
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <figure>
-                        <a href="#"><img src="https://i.ibb.co/HnF6V6S/logo-transparent.png" alt="logo-transparent" border="0"></a>
+                        <a href="./index.html"><img src="https://i.ibb.co/HnF6V6S/logo-transparent.png" alt="logo-transparent" border="0"></a>
                     </figure>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
                           <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                           <a class="nav-link" href="./conferencias.html">Conferencias</a>
                           <a class="nav-link" href="./cursos.html">Cursos</a>
-                          <a id= "nav-bar" class="nav-link" href="#">Únete</a>
+                          <a id= "nav-bar" class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalunir">Únete</a>
                         </div>
                       </div>
                 </div>
@@ -62,7 +62,7 @@
                                       <p class="d-none d-md-block">
                                           Únete y accede a una gran gama de cursos para mejorar tus habilidades matemáticas. Podrás obtener titulaciones de alta calidad.
                                       </p>
-                                      <button class= "btn btn-unir" type="button">¡Quiero unirme!</button>
+                                      <button class= "btn btn-unir"  data-bs-toggle="modal" data-bs-target="#modalunir" type="button">¡Quiero unirme!</button>
                                   </div>
                               </div>
                           </div>
@@ -72,6 +72,60 @@
             </div>
         </main>
         <!-- /main -->
+        <!-- modal - unir -->
+        <div class="modal" tabindex="-1" id="modalunir">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Registro</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-success">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- /modañ unir -->
+        <!-- Te contactamos -->
+        <section id="contacta-cont">
+            <div class="container-fluid">
+                <div class="row mb-3">
+                    <div class="col text-center">
+                        <h2 class="text-uppercase">Te contactamos</h2>
+                        <small>LLena tus datos y te contactamos en el menor tiempo posible</small>
+                    </div>
+                </div>
+                <form class="row g-3">
+                    <div class="col-12 col-md-4 col-lg-4 offset-md-2">
+                      <label for="inputfname" class="form-label">Nombres</label>
+                      <input type="text" class="form-control" id="inputfname" autocomplete="name">
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                      <label for="inputlname" class="form-label">Apellidos</label>
+                      <input type="text" class="form-control" id="inputlname">
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-5 offset-md-2">
+                        <label for="inputemail" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="inputemail" autocomplete="email">
+                    </div>
+                      <div class="col-12 col-md-3 col-lg-3">
+                        <label for="inputlnumber" class="form-label">Número celular</label>
+                        <input type="number" class="form-control" id="inputlnumber">
+                      </div>
+                      <div class="row ">
+                          <div class="col-1 offset-5  offset-md-6 mt-3">
+                              <button type="submit" class="btn btn-primary">Enviar</button>
+                          </div>
+                      </div>
+                  </form>
+            </div>
+        </section>
+        <!-- /Te contactamos -->
         <!-- footer -->
         <footer id="footer-container">
             <div class="container-sm text-center mt-3 pb-3 pt-3">
