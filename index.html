@@ -81,7 +81,20 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                    <form class="g-3">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                              <label for="inputPassword6" class="col-form-label">Password</label>
+                            </div>
+                            <div class="col-8">
+                              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                          </div>
+                     </form>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
@@ -90,7 +103,7 @@
               </div>
             </div>
           </div>
-        <!-- /modañ unir -->
+        <!-- /modal unir -->
         <!-- Te contactamos -->
         <section id="contacta-cont">
             <div class="container-fluid">
@@ -100,29 +113,45 @@
                         <small>LLena tus datos y te contactamos en el menor tiempo posible</small>
                     </div>
                 </div>
-                <form class="row g-3">
-                    <div class="col-12 col-md-4 col-lg-4 offset-md-2">
-                      <label for="inputfname" class="form-label">Nombres</label>
-                      <input type="text" class="form-control" id="inputfname" autocomplete="name">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <form class="g-3">
+                            <div class="row mb-2">
+                             <div class="col-12 col-md-4 col-lg-4 offset-md-2">
+                                 <label for="inputfname" class="form-label">Nombres</label>
+                                 <input type="text" class="form-control" id="inputfname" autocomplete="name">
+                               </div>
+                               <div class="col-12 col-md-4 col-lg-4">
+                                 <label for="inputlname" class="form-label">Apellidos</label>
+                                 <input type="text" class="form-control" id="inputlname">
+                               </div>
+                            </div>
+                            <div class="row mb-2">
+                             <div class="col-12 col-md-5 col-lg-5 offset-md-2">
+                                 <label for="inputemail" class="form-label">Correo</label>
+                                 <input type="email" class="form-control" id="inputemail" autocomplete="email">
+                             </div>
+                             <div class="col-12 col-md-3 col-lg-3">
+                                 <label for="inputlnumber" class="form-label">Número celular</label>
+                                 <input type="number" class="form-control" id="inputlnumber">
+                             </div>
+                            </div>
+                            <div class="row mb-2">
+                             <div class="col-12 col-md-8 offset-md-2 mb-3">
+                                 <label for="Textarea" class="form-label">¿En qué estás intersado?</label>
+                                 <textarea class="form-control" id="Textarea" required></textarea>
+                             </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-2 offset-md-5">
+                                 <div class="d-grid gap-2">
+                                     <button class="btn btn-primary" type="submit">Enviar</button>
+                                   </div>
+                                </div>
+                            </div>
+                         </form>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4">
-                      <label for="inputlname" class="form-label">Apellidos</label>
-                      <input type="text" class="form-control" id="inputlname">
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-5 offset-md-2">
-                        <label for="inputemail" class="form-label">Correo</label>
-                        <input type="email" class="form-control" id="inputemail" autocomplete="email">
-                    </div>
-                      <div class="col-12 col-md-3 col-lg-3">
-                        <label for="inputlnumber" class="form-label">Número celular</label>
-                        <input type="number" class="form-control" id="inputlnumber">
-                      </div>
-                      <div class="row ">
-                          <div class="col-1 offset-5  offset-md-6 mt-3">
-                              <button type="submit" class="btn btn-primary">Enviar</button>
-                          </div>
-                      </div>
-                  </form>
+                </div>
             </div>
         </section>
         <!-- /Te contactamos -->

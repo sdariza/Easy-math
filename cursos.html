@@ -33,7 +33,7 @@
                           <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
                           <a class="nav-link" href="./conferencias.html">Conferencias</a>
                           <a class="nav-link active" href="./cursos.html">Cursos</a>
-                          <a id= "nav-bar" class="nav-link" href="#">Únete</a>
+                          <a id= "nav-bar" class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalunir"">Únete</a>
                         </div>
                       </div>
                 </div>
@@ -125,6 +125,38 @@
             </div>
         </div>
         <!-- /temas de interés -->
+        <!-- modal - unir -->
+        <div class="modal" tabindex="-1" id="modalunir">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Registro</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="g-3">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                              <label for="inputPassword6" class="col-form-label">Password</label>
+                            </div>
+                            <div class="col-8">
+                              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                          </div>
+                     </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-success">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- /modal unir -->
         <!-- footer -->
         <footer id="footer-container">
             <div class="container-sm text-center mt-3 pb-3 pt-3">
